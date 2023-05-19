@@ -40,7 +40,7 @@ def alta_inmueble(lista):
                         
 #funcion BAJA Inmueble
 def baja_inmueble(lista):
-    print("lista de inmuebles: ",lista_inmueble)
+    #print("lista de inmuebles: ",lista_inmueble)
     # Elemento a buscar
     anio_baja = "2016"
 
@@ -52,7 +52,7 @@ def baja_inmueble(lista):
             break
     else:
         print("Elemento no encontrado.")
-    print(lista)
+    #print(lista)
      
 #funcion MODIFICAION Inmueble
 
@@ -111,11 +111,11 @@ while(abm !=0):
     abm = int(input("Seleccionar una opción: 1-Alta, 2-Baja, 3-Edicion, 0-Salir "))
 print(lista_inmueble)
 
-#-Cambiar el estado de un inmueble, sin modificar sus demás datos.
+#2-Cambiar el estado de un inmueble, sin modificar sus demás datos.
 nuevoEstado = input("Ingrese nuevo estado: ")
 modif_Estado(lista_inmueble, nuevoEstado)
 
-#busqueda de inmuebles segun un presupuesto dado
+#3-busqueda de inmuebles segun un presupuesto dado
 presupuesto = float(input("Ingrese el presupuesto: "))
 busqueda_inmueblexprecio(lista_inmueble, presupuesto)
 
