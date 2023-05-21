@@ -52,7 +52,7 @@ def baja_inmueble(lista):
             break
     else:
         print("Elemento no encontrado.")
-    #print(lista)
+    print(lista)
      
 #funcion MODIFICAION Inmueble
 
